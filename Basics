@@ -1,0 +1,25 @@
+Libraries-> ReactJs, AngularJS, VueJS etc...
+
+1. ReactJs uses Virtual DOM inorder when changes in the elements happen. Virtual DOM is way faster than Real DOM
+2. Advantages with React is also when a certain part of an HTML page occur if we dont use React library it reloads whole HTML page but where as React it makes use of Components so
+   they just change the component.
+3. React is a component based Front end Library.
+4. These Components are independent and reusable.
+
+Two type of components
+1. Functional 
+2. Class-based
+
+Class-Based Components
+
+1. In this firstly we import react and a structure component
+
+Code:
+  import React, {Component} from 'react'
+
+Now 2 questions may arise they are from where are we importing this, and why are we importing
+
+Answer for that question is:
+
+1. We need to import this to use the entiretiy of this library.
+
