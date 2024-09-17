@@ -12,7 +12,7 @@ Two type of components
 
 Class-Based Components
 
-1. In this firstly we import react and a structure component
+In this firstly we import react and a structure component
 
 Code:
   import React, {Component} from 'react'
@@ -21,5 +21,37 @@ Now 2 questions may arise they are from where are we importing this, and why are
 
 Answer for that question is:
 
-1. We need to import this to use the entiretiy of this library.
+1. We need to import this to use the entiretiy of this react library.
+2. Regular js class extends react component
 
+Code:
+
+      class Example extends Component{
+         render(){
+            return <div> Hello </div>
+         }
+      }
+
+the render method describes how should the UI look like.
+
+Functional Components
+
+import React from 'react'  --> Now a days in newer version this line is also not needed.
+// write a function
+
+const Example = () =>{
+   return <div> Hi </div>
+}
+
+this return line is not a string nor HTML it is an JSX
+
+JSX-> used in React to describe what an user interface should look like.
+
+What is create-react-app?
+
+Start building single or multipage website. Simple tool or commad that generates the required files and folders to start the react app and run it in the browser.
+
+To run this commad we node js installed in the computer (npx create-react-app my-app).
+
+when we creat first my-app i contains differenr folders such as src, public, package.json etc.
+src is where all code stays.
