@@ -1,0 +1,35 @@
+Always include link tag in the head and script tag in body at the end of closing body tag.
+
+What is Document Object Model (DOM)
+
+Useful in making our website responsive
+
+--> webiste divided into multiple objects or components
+two properties-> set,get
+
+document.getElementByTagName() -> using tag
+document.getElementsByClassName() -> by class name
+document.getElementById()  
+document.queySelector()  -> Ex: body, p, h1, .navbar.......
+
+document.getElementByID("").innerHTML
+document.getElementById)("").textContetnt
+
+Event Listeners
+
+.addEventListener("event type", Listener )  listener is a js fucntion
+
+function listner(){
+// code
+}
+
+JQUERY
+
+A javascript Framework (improving the js code)
+document.querySelector("h1") -> jQuery("h1") or $("h1") -> as simple as that
+
+UNIX CLI
+
+ls-> list items, cd-> change directory, mkdir-> creates a new directory , touch-> creates a file, open, rm- removes an existing file, open -a path, pwd-> gives our current path, rm -r (removes directory, .. -> moves one step back)
+
+
