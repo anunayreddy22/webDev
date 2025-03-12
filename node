@@ -1,0 +1,15 @@
+After Installing Node check for the version in terminal using (node -v)
+
+Node Definiton: An asynchronus event driven javascript run time.
+
+NODE REPL(Read Eval Print Loop)
+It is a computer environment where user inputs are read and evaluated and then the results are returned to the user.
+type node in your terminal to enter into repl, .exit to exit from it
+
+to run Js file -> node index.js
+
+npm init -> to intialise  NPM
+npm install <something>   --> to install an npm package
+
+
+
